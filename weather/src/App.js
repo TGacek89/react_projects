@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const api = {
-  key: "e80d06fccdd48578157371705ec736b9",
+  key: "d4fc5cbaa485d04a45c0a40ce8a2dc28",
   base: "https://api.openweathermap.org/data/2.5/",
 };
 
@@ -16,6 +16,7 @@ function App() {
         .then((result) => {
           setWeather(result);
           setQuery("");
+
           console.log(result);
         });
     }
@@ -68,12 +69,12 @@ function App() {
           />
         </div>
         <div className="location-box">
-          <div className="location">Lubie placki</div>
+          <div className="location"></div>
           <div className="date">{dateBuilder(new Date())}</div>
         </div>
         <div className="weather-box">
-          <div className="temp">15C</div>
-          <div className="weather">Sunny</div>
+          <div className="temp">°C</div>
+          <div className="weather"></div>
         </div>
       </main>
     </div>
