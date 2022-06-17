@@ -2,6 +2,7 @@
   height: 100vh;
   display: flex;
   align-items: center;
+  background-color: rgb(21, 21, 21);
 }
 
 .a-left {
@@ -31,11 +32,21 @@
   object-fit: cover;
 }
 
+.a:hover .a-img {
+  transition: 2s ease-in-out;
+  transform: scale(+101%);
+}
+
 .a-card.bg {
   position: absolute;
   top: 50px;
-  left: 50px;
-  background-color: rgb(21, 21, 21);
+  right: 50px;
+  background: rgb(255, 145, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 145, 0, 1) 0%,
+    rgba(255, 184, 0, 1) 35%
+  );
   position: absolute;
 }
 

@@ -2,6 +2,8 @@ import React, { useRef, useState } from "react";
 import "./contact.css";
 import Phone from "../../img/phone.png";
 import Email from "../../img/email.png";
+import Location from "../../img/location.png";
+import Linkedin from "../../img/linkedin.png";
 import emailjs from "@emailjs/browser";
 
 // import Address from "../../img/address.png";
@@ -45,16 +47,25 @@ const Contact = () => {
               gaco.g4@gmail.com
             </div>
             <div className="c-info-item">
-              {/* <img src={Address} alt="" className="c-icon" /> */}
+              <img src={Linkedin} alt="" className="c-icon" />
+              <a href="https://www.linkedin.com/in/tomasz-gacek-bb5815a4">
+                Tomasz gacek
+              </a>
+            </div>
+            <div className="c-info-item">
+              <img src={Location} alt="" className="c-icon" />
               Malaga
             </div>
           </div>
         </div>
         <div className="c-right">
-          <p className="c-desc">
-            <b>Whats your story?</b> Get in touch with me.<tr></tr> Always
-            intrested in oportunietes and new projects
-          </p>
+          <div className="c-desc">
+            <h1>Whats your story?</h1>
+            <h2>
+              Get in touch with me. I'm always intrested in new oportunietes and
+              projects.
+            </h2>
+          </div>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input type="text" placeholder="Name" name="user_name" />
             <input type="text" placeholder="Subject" name="user_subject" />

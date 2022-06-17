@@ -5,7 +5,12 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-color: rgb(0, 216, 171);
+  background: rgb(255, 145, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 145, 0, 1) 0%,
+    rgba(255, 184, 0, 1) 35%
+  );
 }
 
 .pl-texst {
@@ -13,8 +18,8 @@
 }
 
 .pl-title {
-  font-size: 60px;
-  font-weight: 800;
+  font-size: 70px;
+  font-weight: 900;
 }
 
 .pl-desc {
