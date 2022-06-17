@@ -69,12 +69,14 @@ function App() {
           />
         </div>
         <div className="location-box">
-          <div className="location"></div>
+          <div className="location">
+            {weather.name},{weather.sys.country}
+          </div>
           <div className="date">{dateBuilder(new Date())}</div>
         </div>
         <div className="weather-box">
-          <div className="temp">°C</div>
-          <div className="weather"></div>
+          <div className="temp">{Math.round(weather.main.temp)}°C</div>
+          <div className="weather">{weather.weather[0].main}</div>
         </div>
       </main>
     </div>
