@@ -1,28 +1,39 @@
 import React from "react";
 import "./about.css";
 import watch from "../../img/1.jpg";
-import photo from "../../img/photo.jpg";
+import html from "../../img/html.png";
+import react from "../../img/react.png";
+import node from "../../img/node.png";
+import php from "../../img/php.png";
+import mongo from "../../img/mongo.png";
+import mysql from "../../img/mysql.png";
 
 function About() {
   return (
     <div className="a">
       <div className="a-right">
         <h1 className="a-title">About Me</h1>
-        <p className="a-sub">It is my pleasure</p>
+        <p className="a-sub"></p>
         <p className="a-desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-          animi quae id, dolore reprehenderit laborum nihil, quos nobis
-          voluptates iure voluptas cum magnam rem asperiores mollitia enim ullam
-          assumenda recusandae?
+          New to industry and passionate about programing, after receving
+          diploma from recently finished Full Stack Web Developer bootcamp by
+          CodeSpace Academy here in Malaga. I'm looking to start my new carrer
+          in world of programing.
         </p>
         <div className="a-award">
-          <img src={photo} alt="" className="a-award-img" />
           <div className="a-award-texts">
-            <h4 className="a-award-title">Design</h4>
+            <h4 className="a-award-title">Programing languages</h4>
             <p className="a-award-desc">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Cupiditate.
+              Languages and frameworks that we covered in bootcamp among others.
             </p>
+            <div className="a-award-icons">
+              <img src={html} alt="" className="a-award-img" />
+              <img src={react} alt="" className="a-award-img" />
+              <img src={node} alt="" className="a-award-img" />
+              <img src={php} alt="" className="a-award-img" />
+              <img src={mongo} alt="" className="a-award-img" />
+              <img src={mysql} alt="" className="a-award-img" />
+            </div>
           </div>
         </div>
       </div>

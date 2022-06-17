@@ -16,6 +16,12 @@
 
 .a-right {
   flex: 1;
+
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .a-card {
@@ -53,23 +59,26 @@
 .a-title {
   font-size: 50px;
   font-weight: 800;
+  color: rgb(255, 145, 0);
 }
 
 .a-sub {
   font-size: 30px;
   font-weight: 400;
   margin: 20px 0px;
+  color: rgb(255, 145, 0);
 }
 
 .a-desc {
-  font-size: 25px;
-  font-weight: 400;
+  font-size: 28px;
+  font-weight: 900;
   color: rgb(21, 21, 21);
+  color: rgb(255, 145, 0);
 }
 
 .a-award-img {
-  width: 120px;
-  height: 120px;
+  width: 90px;
+  height: 90px;
   padding: 1rem;
   object-fit: cover;
   border-radius: 20px;
@@ -77,19 +86,25 @@
 
 .a-award {
   margin-top: 40px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .a-award-texts {
-  width: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: rgb(255, 145, 0);
 }
 
 .a-award-title {
   font-weight: bold;
   font-size: 25px;
-  color: rgb(0, 216, 171);
+  color: rgb(255, 145, 0);
 }
 
 @media screen and (max-width: 480px) {
