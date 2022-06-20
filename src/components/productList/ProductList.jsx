@@ -7,11 +7,10 @@ function ProductList() {
   return (
     <div className="pl">
       <div className="pl-texst">
-        <h1 className="pl-title">Create & inspire.</h1>
+        <h1 className="pl-title">My Creations</h1>
         <p className="pl-desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-          repellendus inventore, vel, qui aut quidem quos quod modi cupiditate
-          voluptas perferendis magni eos
+          Here we have links to my projects including final project for Code
+          Space Academy
         </p>
       </div>
       <div className="pl-list">

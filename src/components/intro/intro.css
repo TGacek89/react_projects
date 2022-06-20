@@ -156,6 +156,7 @@
   .i-name {
     font-size: 40px;
     font-weight: 900;
+    margin-bottom: 16px;
   }
 
   .i-title-item {
@@ -180,5 +181,8 @@
   }
   .i-desc {
     display: none;
+  }
+  .i-title {
+    margin: 1rem;
   }
 }

@@ -13,7 +13,7 @@ function About() {
     <div className="a">
       <div className="a-right">
         <h1 className="a-title">About Me</h1>
-        <p className="a-sub"></p>
+
         <p className="a-desc">
           New to industry and passionate about programing, after receving
           diploma from recently finished Full Stack Web Developer bootcamp by
@@ -24,7 +24,8 @@ function About() {
           <div className="a-award-texts">
             <h4 className="a-award-title">Programing languages</h4>
             <p className="a-award-desc">
-              Languages and frameworks that we covered in bootcamp among others.
+              Languages and frameworks that we covered at<br></br> bootcamp
+              among others.
             </p>
             <div className="a-award-icons">
               <img src={html} alt="" className="a-award-img" />

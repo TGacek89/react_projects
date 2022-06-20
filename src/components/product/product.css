@@ -27,17 +27,24 @@
 
 .p-img {
   width: 100%;
+  object-fit: cover;
 }
 
 .p:hover .p-img {
   transition: 2s ease all;
-  transform: translateY(-30%);
+  transform: translateY(-5%);
 }
 
 @media screen and (max-width: 480px) {
   .p {
-    width: 40%;
-    height: 20vh;
+    width: 100vw;
+    height: 45vh;
+
+    margin: 20px 10px;
+    border: 2px solid rgb(21, 21, 21);
+    margin-top: 110px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
   }
   .pl-texst {
     width: 100%;
