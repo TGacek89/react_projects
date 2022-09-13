@@ -62,7 +62,7 @@ const Contact = () => {
           <div className="c-desc">
             <h1>Whats your story?</h1>
             <h2>
-              Get in touch with me. I'm always intrested in new oportunietes and
+              Get in touch with me. I'm always intrested in your story and
               projects.
             </h2>
           </div>

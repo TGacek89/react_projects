@@ -15,14 +15,15 @@ function About() {
         <h1 className="a-title">About Me</h1>
 
         <p className="a-desc">
-          New to industry and passionate about programing, after receving
-          diploma from recently finished Full Stack Web Developer bootcamp by
-          CodeSpace Academy here in Malaga. I'm looking to start my new carrer
-          in world of programing.
+          New to the programming world. I am passionate about technology and
+          this industry. I have recently finished and achieved a Full Stuck Web
+          Developer Diploma by Codespace Academy in Malaga. I'm looking to start
+          my professional career in this sector, develop my skills and gain more
+          knowledge.
         </p>
         <div className="a-award">
           <div className="a-award-texts">
-            <h4 className="a-award-title">Programing languages</h4>
+            <h4 className="a-award-title">Programming languages</h4>
             <p className="a-award-desc">
               Languages and frameworks that we covered at<br></br> bootcamp
               among others.

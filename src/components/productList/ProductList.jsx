@@ -9,8 +9,8 @@ function ProductList() {
       <div className="pl-texst">
         <h1 className="pl-title">My Creations</h1>
         <p className="pl-desc">
-          Here we have links to my projects including final project for Code
-          Space Academy
+          Here you have the links to my projects. <br />
+          Including final project for Codespace Academy!
         </p>
       </div>
       <div className="pl-list">

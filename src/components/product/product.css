@@ -32,7 +32,7 @@
 
 .p:hover .p-img {
   transition: 2s ease all;
-  transform: translateY(-5%);
+  transform: translateY(-25%);
 }
 
 @media screen and (max-width: 480px) {

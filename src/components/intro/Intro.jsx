@@ -17,14 +17,13 @@ function Intro() {
             <div className="i-title-wrapper">
               <div className="i-title-item">Junior Full Stack </div>
               <div className="i-title-item">Student</div>
-              <div className="i-title-item">Beautifull</div>
-              <div className="i-title-item">Content </div>
-              <div className="i-title-item">Content </div>
+              <div className="i-title-item">Motivated</div>
+              <div className="i-title-item">Creative</div>
             </div>
           </div>
           <p className="i-desc">
-            I'm Junior Full Stack Developer that recently finished Code Space
-            Academy course and I'm currently looking for a job.
+            I'm Junior Full Stack Developer that recently graduated from
+            Codespace Academy course ready to begin new career path.
           </p>
         </div>
       </div>
