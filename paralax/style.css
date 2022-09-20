@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  position: absolute;
+  width: 100%;
+  display: flex;
+
+  padding: 3rem 10rem;
+  justify-content: space-evenly;
+}
+
+.button {
+  transition-duration: 0.4s;
+  font-size: 1.25rem;
+  padding: 0px 20px;
+  color: white;
+}
+
+.button:hover {
+  background-color: rgba(250, 235, 215, 0.232);
+}
+
+.container {
+  height: 100vh;
+}
+.container img {
+  width: 100%;
+  position: absolute;
+  height: 110vh;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.bg1 {
+  width: 100%;
+}
+.img1 {
+  width: 400px;
+  height: 600px;
+  box-shadow: 5px 5px 5px #0000009d;
+  margin: 16px;
+}
+
+.main-title {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  font-size: 5rem;
+  font-weight: 200;
+  transform: translate(-50%, -30%);
+  color: white;
+}
+
+.content {
+  width: 100%;
+  background: rgb(202, 202, 202);
+
+  min-height: 100vh;
+  z-index: 2;
+  position: absolute;
+}
+
+.content-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.content-images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 60vh;
+  text-align: center;
+}
+
+.photocontainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  position: absolute;
+  color: white;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h3 {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text {
+  padding: 2rem 20rem;
+  font-size: 1.1rem;
+  color: rgb(21, 21, 21);
+}
